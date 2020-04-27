@@ -1,0 +1,5 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","for Vantiv/Litle US payments","should decline with ""Insufficient Funds."" alert","0","0","1","0","0"
+"","Vantiv","should deny the same payment identifier the second time","0","0","1","0","0"
+"","Vantiv","should check out successfully","0","0","1","0","0"
+"","Vantiv","should allow a payment identifier","0","0","1","0","0"

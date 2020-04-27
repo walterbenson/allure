@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Apr 27 15:20:45 CDT 2020","Mon Apr 27 15:20:56 CDT 2020","10507","Powerpay invalid cards","for Vantiv/Litle US payments","","checkout_errors_spec","","should decline with ""Insufficient Funds."" alert","Location - spec/powerpay/checkout/checkout_errors_spec.rb:13"
+"passed","Mon Apr 27 15:34:45 CDT 2020","Mon Apr 27 15:35:05 CDT 2020","20237","Powerpay Gateway","Vantiv","","gateway_spec","","should deny the same payment identifier the second time","Location - spec/gateway/gateway_spec.rb:31"
+"passed","Mon Apr 27 15:34:23 CDT 2020","Mon Apr 27 15:34:35 CDT 2020","11457","Powerpay Gateway","Vantiv","","gateway_spec","","should check out successfully","Location - spec/gateway/gateway_spec.rb:7"
+"passed","Mon Apr 27 15:34:35 CDT 2020","Mon Apr 27 15:34:45 CDT 2020","9942","Powerpay Gateway","Vantiv","","gateway_spec","","should allow a payment identifier","Location - spec/gateway/gateway_spec.rb:17"

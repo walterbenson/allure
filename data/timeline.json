@@ -1,5 +1,69 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "WalterBenson-35215.local",
+    "children" : [ {
+      "name" : "70235982053420",
+      "children" : [ {
+        "name" : "should decline with \"Insufficient Funds.\" alert",
+        "uid" : "41bff8e54b5370e3",
+        "parentUid" : "b1af7db9123c04ca8229444739e16992",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588018845926,
+          "stop" : 1588018856433,
+          "duration" : 10507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1af7db9123c04ca8229444739e16992"
+    }, {
+      "name" : "70347928051780",
+      "children" : [ {
+        "name" : "should deny the same payment identifier the second time",
+        "uid" : "68f1f22540cb5ce9",
+        "parentUid" : "b32753d73eafaa8a53a9bb18c238905d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588019685357,
+          "stop" : 1588019705594,
+          "duration" : 20237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should check out successfully",
+        "uid" : "f7071ba14d7c17a1",
+        "parentUid" : "b32753d73eafaa8a53a9bb18c238905d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588019663950,
+          "stop" : 1588019675407,
+          "duration" : 11457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should allow a payment identifier",
+        "uid" : "3f9d83e287a00806",
+        "parentUid" : "b32753d73eafaa8a53a9bb18c238905d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588019675413,
+          "stop" : 1588019685355,
+          "duration" : 9942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b32753d73eafaa8a53a9bb18c238905d"
+    } ],
+    "uid" : "1ae4f912ea8e07c4411dd6c270e76a9a"
+  } ]
 }

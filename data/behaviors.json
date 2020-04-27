@@ -1,5 +1,81 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "for Vantiv/Litle US payments",
+    "children" : [ {
+      "name" : "should decline with \"Insufficient Funds.\" alert",
+      "children" : [ {
+        "name" : "should decline with \"Insufficient Funds.\" alert",
+        "uid" : "41bff8e54b5370e3",
+        "parentUid" : "68c3042fd1b7ec4da1bd3bd3e7d4525c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588018845926,
+          "stop" : 1588018856433,
+          "duration" : 10507
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "68c3042fd1b7ec4da1bd3bd3e7d4525c"
+    } ],
+    "uid" : "e8b256afef25a1ea89bd8c651ecd9a6a"
+  }, {
+    "name" : "Vantiv",
+    "children" : [ {
+      "name" : "should check out successfully",
+      "children" : [ {
+        "name" : "should check out successfully",
+        "uid" : "f7071ba14d7c17a1",
+        "parentUid" : "a96efd3a6c8d8d7d1d2a2055ce3b5240",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588019663950,
+          "stop" : 1588019675407,
+          "duration" : 11457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a96efd3a6c8d8d7d1d2a2055ce3b5240"
+    }, {
+      "name" : "should allow a payment identifier",
+      "children" : [ {
+        "name" : "should allow a payment identifier",
+        "uid" : "3f9d83e287a00806",
+        "parentUid" : "41a21dfa12cc9a8f62305f6f55e5b98f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588019675413,
+          "stop" : 1588019685355,
+          "duration" : 9942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41a21dfa12cc9a8f62305f6f55e5b98f"
+    }, {
+      "name" : "should deny the same payment identifier the second time",
+      "children" : [ {
+        "name" : "should deny the same payment identifier the second time",
+        "uid" : "68f1f22540cb5ce9",
+        "parentUid" : "eab848bb997b974cc73925350712396f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588019685357,
+          "stop" : 1588019705594,
+          "duration" : 20237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eab848bb997b974cc73925350712396f"
+    } ],
+    "uid" : "c0c8b11e902febe3edd95b5a40ac733b"
+  } ]
 }

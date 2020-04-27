@@ -1,5 +1,65 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "spec/powerpay/checkout",
+    "children" : [ {
+      "name" : "should decline with \"Insufficient Funds.\" alert",
+      "uid" : "41bff8e54b5370e3",
+      "parentUid" : "8cf51e5ba066f3963a64fd2849d86609",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588018845926,
+        "stop" : 1588018856433,
+        "duration" : 10507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8cf51e5ba066f3963a64fd2849d86609"
+  }, {
+    "name" : "spec/gateway",
+    "children" : [ {
+      "name" : "should check out successfully",
+      "uid" : "f7071ba14d7c17a1",
+      "parentUid" : "7362b7962ec9bc744921d1864c33f6e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588019663950,
+        "stop" : 1588019675407,
+        "duration" : 11457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should allow a payment identifier",
+      "uid" : "3f9d83e287a00806",
+      "parentUid" : "7362b7962ec9bc744921d1864c33f6e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588019675413,
+        "stop" : 1588019685355,
+        "duration" : 9942
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should deny the same payment identifier the second time",
+      "uid" : "68f1f22540cb5ce9",
+      "parentUid" : "7362b7962ec9bc744921d1864c33f6e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588019685357,
+        "stop" : 1588019705594,
+        "duration" : 20237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7362b7962ec9bc744921d1864c33f6e4"
+  } ]
 }

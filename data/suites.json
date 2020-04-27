@@ -1,5 +1,79 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Powerpay invalid cards",
+    "children" : [ {
+      "name" : "for Vantiv/Litle US payments",
+      "children" : [ {
+        "children" : [ {
+          "name" : "should decline with \"Insufficient Funds.\" alert",
+          "uid" : "41bff8e54b5370e3",
+          "parentUid" : "2149a2f8ae7992f0a8e3df3ddb792e66",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588018845926,
+            "stop" : 1588018856433,
+            "duration" : 10507
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2149a2f8ae7992f0a8e3df3ddb792e66"
+      } ],
+      "uid" : "b3074fdabfa7219a35d0b0976b2ec336"
+    } ],
+    "uid" : "74f87249f1026c121a3fbda5a9e62026"
+  }, {
+    "name" : "Powerpay Gateway",
+    "children" : [ {
+      "name" : "Vantiv",
+      "children" : [ {
+        "children" : [ {
+          "name" : "should check out successfully",
+          "uid" : "f7071ba14d7c17a1",
+          "parentUid" : "f6f1f3c703eb20503290f6ea394b9262",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588019663950,
+            "stop" : 1588019675407,
+            "duration" : 11457
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should allow a payment identifier",
+          "uid" : "3f9d83e287a00806",
+          "parentUid" : "f6f1f3c703eb20503290f6ea394b9262",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588019675413,
+            "stop" : 1588019685355,
+            "duration" : 9942
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should deny the same payment identifier the second time",
+          "uid" : "68f1f22540cb5ce9",
+          "parentUid" : "f6f1f3c703eb20503290f6ea394b9262",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588019685357,
+            "stop" : 1588019705594,
+            "duration" : 20237
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f6f1f3c703eb20503290f6ea394b9262"
+      } ],
+      "uid" : "4511c9795bf083592e69c028bad9fe40"
+    } ],
+    "uid" : "78c1b880ca91f951637fa424dc6d8d97"
+  } ]
 }
