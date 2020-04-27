@@ -1,1 +1,41 @@
-[ ]
+[ {
+  "uid" : "41bff8e54b5370e3",
+  "name" : "should decline with \"Insufficient Funds.\" alert",
+  "time" : {
+    "start" : 1588018845926,
+    "stop" : 1588018856433,
+    "duration" : 10507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68f1f22540cb5ce9",
+  "name" : "should deny the same payment identifier the second time",
+  "time" : {
+    "start" : 1588019685357,
+    "stop" : 1588019705594,
+    "duration" : 20237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7071ba14d7c17a1",
+  "name" : "should check out successfully",
+  "time" : {
+    "start" : 1588019663950,
+    "stop" : 1588019675407,
+    "duration" : 11457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f9d83e287a00806",
+  "name" : "should allow a payment identifier",
+  "time" : {
+    "start" : 1588019675413,
+    "stop" : 1588019685355,
+    "duration" : 9942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
