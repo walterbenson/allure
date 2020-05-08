@@ -1,15 +1,25 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
-    "uid" : "78c1b880ca91f951637fa424dc6d8d97",
-    "name" : "Powerpay Gateway",
+    "uid" : "84e4fb228aa5651a31b5ca4d2bc531de",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 3
+      "total" : 6
+    }
+  }, {
+    "uid" : "d687cdf2ffcc376cb1cdf26a678e1fc3",
+    "name" : "Refund through HQ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "74f87249f1026c121a3fbda5a9e62026",

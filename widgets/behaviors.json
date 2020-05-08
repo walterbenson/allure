@@ -1,15 +1,26 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
-    "uid" : "c0c8b11e902febe3edd95b5a40ac733b",
-    "name" : "Vantiv",
+    "uid" : "cb0452edb797a58b7db73e51c47d1eee",
+    "name" : "HQ Smoke Test",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 3
+      "total" : 6
+    }
+  }, {
+    "uid" : "b68aae1a0d5e3e0d37d9ff78907ca5c0",
+    "name" : "US payments",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "e8b256afef25a1ea89bd8c651ecd9a6a",

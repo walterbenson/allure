@@ -1,40 +1,90 @@
 [ {
-  "uid" : "41bff8e54b5370e3",
+  "uid" : "c17b25fa7616536c",
   "name" : "should decline with \"Insufficient Funds.\" alert",
   "time" : {
-    "start" : 1588018845926,
-    "stop" : 1588018856433,
-    "duration" : 10507
+    "start" : 1588105157909,
+    "stop" : 1588105167725,
+    "duration" : 9816
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "68f1f22540cb5ce9",
-  "name" : "should deny the same payment identifier the second time",
+  "uid" : "22221677c0b7f3b",
+  "name" : "should successfully refund the partial amount",
   "time" : {
-    "start" : 1588019685357,
-    "stop" : 1588019705594,
-    "duration" : 20237
+    "start" : 1588787341767,
+    "stop" : 1588787380531,
+    "duration" : 38764
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f7071ba14d7c17a1",
-  "name" : "should check out successfully",
+  "uid" : "d87d3b6ff056f21",
+  "name" : "should load Transactions",
   "time" : {
-    "start" : 1588019663950,
-    "stop" : 1588019675407,
-    "duration" : 11457
+    "start" : 1588787424482,
+    "stop" : 1588787435585,
+    "duration" : 11103
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3f9d83e287a00806",
-  "name" : "should allow a payment identifier",
+  "uid" : "9efff34e91047e7e",
+  "name" : "should load Discounts",
   "time" : {
-    "start" : 1588019675413,
-    "stop" : 1588019685355,
-    "duration" : 9942
+    "start" : 1588787380533,
+    "stop" : 1588787391746,
+    "duration" : 11213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcde7f011d9f33d6",
+  "name" : "should successfully refund the amount",
+  "time" : {
+    "start" : 1588787304797,
+    "stop" : 1588787341762,
+    "duration" : 36965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c1077941ecc7ffc",
+  "name" : "should load Sale Items",
+  "time" : {
+    "start" : 1588787404695,
+    "stop" : 1588787415068,
+    "duration" : 10373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cdb3ff4a4047fb6",
+  "name" : "should load Payment Terms",
+  "time" : {
+    "start" : 1588787391747,
+    "stop" : 1588787404694,
+    "duration" : 12947
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "522bbf06558369e8",
+  "name" : "should load Orders",
+  "time" : {
+    "start" : 1588787415069,
+    "stop" : 1588787424481,
+    "duration" : 9412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8521a2f826fb5a72",
+  "name" : "should load Reports",
+  "time" : {
+    "start" : 1588787435587,
+    "stop" : 1588787447745,
+    "duration" : 12158
   },
   "status" : "passed",
   "severity" : "normal"

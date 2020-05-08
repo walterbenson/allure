@@ -7,13 +7,13 @@
       "name" : "should decline with \"Insufficient Funds.\" alert",
       "children" : [ {
         "name" : "should decline with \"Insufficient Funds.\" alert",
-        "uid" : "41bff8e54b5370e3",
+        "uid" : "c17b25fa7616536c",
         "parentUid" : "68c3042fd1b7ec4da1bd3bd3e7d4525c",
         "status" : "passed",
         "time" : {
-          "start" : 1588018845926,
-          "stop" : 1588018856433,
-          "duration" : 10507
+          "start" : 1588105157909,
+          "stop" : 1588105167725,
+          "duration" : 9816
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,59 +23,148 @@
     } ],
     "uid" : "e8b256afef25a1ea89bd8c651ecd9a6a"
   }, {
-    "name" : "Vantiv",
+    "name" : "US payments",
     "children" : [ {
-      "name" : "should check out successfully",
+      "name" : "should successfully refund the amount",
       "children" : [ {
-        "name" : "should check out successfully",
-        "uid" : "f7071ba14d7c17a1",
-        "parentUid" : "a96efd3a6c8d8d7d1d2a2055ce3b5240",
+        "name" : "should successfully refund the amount",
+        "uid" : "bcde7f011d9f33d6",
+        "parentUid" : "ca75679694490ae8fa56667f181fece9",
         "status" : "passed",
         "time" : {
-          "start" : 1588019663950,
-          "stop" : 1588019675407,
-          "duration" : 11457
+          "start" : 1588787304797,
+          "stop" : 1588787341762,
+          "duration" : 36965
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a96efd3a6c8d8d7d1d2a2055ce3b5240"
+      "uid" : "ca75679694490ae8fa56667f181fece9"
     }, {
-      "name" : "should allow a payment identifier",
+      "name" : "should successfully refund the partial amount",
       "children" : [ {
-        "name" : "should allow a payment identifier",
-        "uid" : "3f9d83e287a00806",
-        "parentUid" : "41a21dfa12cc9a8f62305f6f55e5b98f",
+        "name" : "should successfully refund the partial amount",
+        "uid" : "22221677c0b7f3b",
+        "parentUid" : "6a7e52c4f13696c4e1a1c2afda1529cd",
         "status" : "passed",
         "time" : {
-          "start" : 1588019675413,
-          "stop" : 1588019685355,
-          "duration" : 9942
+          "start" : 1588787341767,
+          "stop" : 1588787380531,
+          "duration" : 38764
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "41a21dfa12cc9a8f62305f6f55e5b98f"
-    }, {
-      "name" : "should deny the same payment identifier the second time",
-      "children" : [ {
-        "name" : "should deny the same payment identifier the second time",
-        "uid" : "68f1f22540cb5ce9",
-        "parentUid" : "eab848bb997b974cc73925350712396f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1588019685357,
-          "stop" : 1588019705594,
-          "duration" : 20237
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "eab848bb997b974cc73925350712396f"
+      "uid" : "6a7e52c4f13696c4e1a1c2afda1529cd"
     } ],
-    "uid" : "c0c8b11e902febe3edd95b5a40ac733b"
+    "uid" : "b68aae1a0d5e3e0d37d9ff78907ca5c0"
+  }, {
+    "name" : "HQ Smoke Test",
+    "children" : [ {
+      "name" : "should load Discounts",
+      "children" : [ {
+        "name" : "should load Discounts",
+        "uid" : "9efff34e91047e7e",
+        "parentUid" : "6171416fab61232311108abf7ab86c36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588787380533,
+          "stop" : 1588787391746,
+          "duration" : 11213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6171416fab61232311108abf7ab86c36"
+    }, {
+      "name" : "should load Payment Terms",
+      "children" : [ {
+        "name" : "should load Payment Terms",
+        "uid" : "4cdb3ff4a4047fb6",
+        "parentUid" : "2566f109020d4e15bc7552a0643dedae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588787391747,
+          "stop" : 1588787404694,
+          "duration" : 12947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2566f109020d4e15bc7552a0643dedae"
+    }, {
+      "name" : "should load Sale Items",
+      "children" : [ {
+        "name" : "should load Sale Items",
+        "uid" : "1c1077941ecc7ffc",
+        "parentUid" : "132f0d6891fc2d5c42465ca895e12db0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588787404695,
+          "stop" : 1588787415068,
+          "duration" : 10373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "132f0d6891fc2d5c42465ca895e12db0"
+    }, {
+      "name" : "should load Orders",
+      "children" : [ {
+        "name" : "should load Orders",
+        "uid" : "522bbf06558369e8",
+        "parentUid" : "aeb9322c7649fe0944181edbb49870a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588787415069,
+          "stop" : 1588787424481,
+          "duration" : 9412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aeb9322c7649fe0944181edbb49870a7"
+    }, {
+      "name" : "should load Transactions",
+      "children" : [ {
+        "name" : "should load Transactions",
+        "uid" : "d87d3b6ff056f21",
+        "parentUid" : "7cbaabaf059ef3f4048707f8f0c75972",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588787424482,
+          "stop" : 1588787435585,
+          "duration" : 11103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cbaabaf059ef3f4048707f8f0c75972"
+    }, {
+      "name" : "should load Reports",
+      "children" : [ {
+        "name" : "should load Reports",
+        "uid" : "8521a2f826fb5a72",
+        "parentUid" : "51279c13fd2e8925efbb748f959d1d06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588787435587,
+          "stop" : 1588787447745,
+          "duration" : 12158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51279c13fd2e8925efbb748f959d1d06"
+    } ],
+    "uid" : "cb0452edb797a58b7db73e51c47d1eee"
   } ]
 }

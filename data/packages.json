@@ -5,13 +5,13 @@
     "name" : "spec/powerpay/checkout",
     "children" : [ {
       "name" : "should decline with \"Insufficient Funds.\" alert",
-      "uid" : "41bff8e54b5370e3",
+      "uid" : "c17b25fa7616536c",
       "parentUid" : "8cf51e5ba066f3963a64fd2849d86609",
       "status" : "passed",
       "time" : {
-        "start" : 1588018845926,
-        "stop" : 1588018856433,
-        "duration" : 10507
+        "start" : 1588105157909,
+        "stop" : 1588105167725,
+        "duration" : 9816
       },
       "flaky" : false,
       "newFailed" : false,
@@ -19,47 +19,112 @@
     } ],
     "uid" : "8cf51e5ba066f3963a64fd2849d86609"
   }, {
-    "name" : "spec/gateway",
+    "name" : "spec/powerpay/hq",
     "children" : [ {
-      "name" : "should check out successfully",
-      "uid" : "f7071ba14d7c17a1",
-      "parentUid" : "7362b7962ec9bc744921d1864c33f6e4",
+      "name" : "should successfully refund the amount",
+      "uid" : "bcde7f011d9f33d6",
+      "parentUid" : "00acf8ac0b2024c2d52f43253a378aae",
       "status" : "passed",
       "time" : {
-        "start" : 1588019663950,
-        "stop" : 1588019675407,
-        "duration" : 11457
+        "start" : 1588787304797,
+        "stop" : 1588787341762,
+        "duration" : 36965
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "should allow a payment identifier",
-      "uid" : "3f9d83e287a00806",
-      "parentUid" : "7362b7962ec9bc744921d1864c33f6e4",
+      "name" : "should successfully refund the partial amount",
+      "uid" : "22221677c0b7f3b",
+      "parentUid" : "00acf8ac0b2024c2d52f43253a378aae",
       "status" : "passed",
       "time" : {
-        "start" : 1588019675413,
-        "stop" : 1588019685355,
-        "duration" : 9942
+        "start" : 1588787341767,
+        "stop" : 1588787380531,
+        "duration" : 38764
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "should deny the same payment identifier the second time",
-      "uid" : "68f1f22540cb5ce9",
-      "parentUid" : "7362b7962ec9bc744921d1864c33f6e4",
+      "name" : "should load Discounts",
+      "uid" : "9efff34e91047e7e",
+      "parentUid" : "00acf8ac0b2024c2d52f43253a378aae",
       "status" : "passed",
       "time" : {
-        "start" : 1588019685357,
-        "stop" : 1588019705594,
-        "duration" : 20237
+        "start" : 1588787380533,
+        "stop" : 1588787391746,
+        "duration" : 11213
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should load Payment Terms",
+      "uid" : "4cdb3ff4a4047fb6",
+      "parentUid" : "00acf8ac0b2024c2d52f43253a378aae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588787391747,
+        "stop" : 1588787404694,
+        "duration" : 12947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should load Sale Items",
+      "uid" : "1c1077941ecc7ffc",
+      "parentUid" : "00acf8ac0b2024c2d52f43253a378aae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588787404695,
+        "stop" : 1588787415068,
+        "duration" : 10373
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should load Orders",
+      "uid" : "522bbf06558369e8",
+      "parentUid" : "00acf8ac0b2024c2d52f43253a378aae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588787415069,
+        "stop" : 1588787424481,
+        "duration" : 9412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should load Transactions",
+      "uid" : "d87d3b6ff056f21",
+      "parentUid" : "00acf8ac0b2024c2d52f43253a378aae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588787424482,
+        "stop" : 1588787435585,
+        "duration" : 11103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should load Reports",
+      "uid" : "8521a2f826fb5a72",
+      "parentUid" : "00acf8ac0b2024c2d52f43253a378aae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588787435587,
+        "stop" : 1588787447745,
+        "duration" : 12158
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "7362b7962ec9bc744921d1864c33f6e4"
+    "uid" : "00acf8ac0b2024c2d52f43253a378aae"
   } ]
 }
